@@ -1,0 +1,261 @@
+{
+  "slug": "una-dermatologia",
+  "negocio": {
+    "nome": "Una Dermatologia",
+    "logo": "brand/logo-branco.png",
+    "whatsapp": "5548988092205",
+    "telefone": "(48) 98809-2205",
+    "unidades": [
+      {
+        "bairro": "Centro · Florianópolis",
+        "endereco": "R. Ângelo La Porta, 53, sala 904 – Ed. Estação Milano – Centro, Florianópolis – SC, 88020-600",
+        "telefone": "(48) 98809-2205 · (48) 3085-0247",
+        "horario": "Segunda a sexta"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#2A292E",
+    "brand2": "#4A4850",
+    "ink": "#161518",
+    "bg": "#EEEBE6",
+    "pulse": "#9A90A8",
+    "radius": "4px",
+    "registro": "editorial",
+    "fontDisplay": "Questrial",
+    "fontBody": "Mulish",
+    "tomHero": "escuro",
+    "tomCorpo": "claro"
+  },
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          { "texto": "Ultrassom de pele", "href": "#imagem" },
+          { "texto": "Atendimentos", "href": "#tratamentos" },
+          { "texto": "Equipe", "href": "#equipe" },
+          { "texto": "Onde fica", "href": "#unidades" }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Dermatologia e imagem · Florianópolis",
+        "h1": "Dermatologia que também olha por baixo da pele",
+        "lead": "Consulta, cirurgia dermatológica, estética e ultrassom de pele com a Dra. Ariel Córdova e equipe, no Edifício Estação Milano, ao lado do Pátio Milano.",
+        "cta": "Agendar pelo WhatsApp",
+        "ctaSecundario": "Ver o ultrassom de pele",
+        "ctaSecundarioHref": "#imagem",
+        "imagem": "midia/ariel.jpg",
+        "imagemAlt": "Dra. Ariel Córdova, dermatologista e responsável técnica da Una",
+        "selo": "Una · Dermatologia e Imagem · ",
+        "tarja": [
+          "4,9 no Google, 154 avaliações",
+          "Ultrassom de pele na própria clínica",
+          "Do atendimento infantil ao idoso",
+          "Ao lado do Pátio Milano, no Centro"
+        ]
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "inclinada",
+      "data": {
+        "itens": [
+          "Psoríase",
+          "Dermatite atópica",
+          "Hidradenite supurativa",
+          "Câncer de pele",
+          "Queda de cabelo",
+          "Toxina botulínica",
+          "Ultrassom de pele",
+          "Teste de contato",
+          "Imunobiológicos"
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "A clínica",
+        "texto": [
+          "Na Una, dermatologista, radiologista e enfermeira atendem no mesmo andar. Quando a dúvida está abaixo da superfície, o ultrassom é feito ali mesmo, sem você precisar procurar outro endereço.",
+          "O cuidado vai do agendamento ao curativo do pós. Quem marcou a sua consulta também sabe quando é o seu retorno."
+        ],
+        "imagem": "midia/espaco.jpg",
+        "imagemAlt": "Corredor do andar da Una Dermatologia, com painel de madeira e janelas para o morro"
+      }
+    },
+    { "custom": "blocos/imagem.html" },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "O que a Una atende",
+        "lead": "Da consulta clínica ao procedimento. Cada indicação sai da avaliação com a dermatologista.",
+        "itens": [
+          {
+            "nome": "Consulta dermatológica",
+            "descricao": "Avaliação individual para cada queixa, de acne e manchas a doenças inflamatórias como psoríase, dermatite atópica, urticária e lúpus.",
+            "icone": "pele"
+          },
+          {
+            "nome": "Cirurgia dermatológica",
+            "descricao": "Biópsia de lesões, retirada de pintas e tratamento cirúrgico do câncer de pele, melanoma e não melanoma.",
+            "icone": "microscopio"
+          },
+          {
+            "nome": "Procedimentos estéticos",
+            "descricao": "Toxina botulínica, preenchedores e bioestimuladores, planejados para o rosto de cada paciente e, quando faz sentido, mapeados com ultrassom.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Cabelos e unhas",
+            "descricao": "Investigação da queda de cabelo e das doenças das unhas, incluindo o clipping ungueal para confirmar psoríase nas unhas.",
+            "icone": "unha"
+          },
+          {
+            "nome": "Teste de contato alérgico",
+            "descricao": "Identifica a substância que provoca a alergia de pele, para você saber exatamente o que evitar.",
+            "icone": "mao"
+          },
+          {
+            "nome": "Imunobiológicos",
+            "descricao": "Para casos que pedem medicação injetável moderna: do diagnóstico ao acesso ao remédio e às aplicações.",
+            "icone": "seringa"
+          },
+          {
+            "nome": "Limpeza de pele e peeling",
+            "descricao": "Renovação da pele, manchas e poros, feitos por enfermeira que conhece as doenças de pele que podem estar por trás.",
+            "icone": "spa"
+          },
+          {
+            "nome": "Cuidado com feridas",
+            "descricao": "Úlceras que não cicatrizam no tempo esperado, com diagnóstico da causa, curativo indicado para cada lesão e acompanhamento da enfermagem.",
+            "icone": "gota"
+          }
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "vivo",
+      "data": {
+        "titulo": "A Una em três números",
+        "itens": [
+          { "valor": "4,9", "rotulo": "de nota no Google" },
+          { "valor": "154", "rotulo": "avaliações de pacientes", "contar": 154 },
+          { "valor": "15 MHz", "rotulo": "ou mais: a frequência do ultrassom que examina a pele", "contar": 15 }
+        ]
+      }
+    },
+    { "custom": "blocos/acompanhamento.html" },
+    {
+      "id": "conversa",
+      "variant": "celular",
+      "data": {
+        "eyebrow": "Retorno na hora certa",
+        "titulo": "A clínica lembra do seu retorno",
+        "lead": "Tratamento de pele funciona em ciclos. Quando chega a época de reavaliar, a recepção chama no WhatsApp e já oferece um horário.",
+        "cta": "Falar com a recepção",
+        "contato": "Una Dermatologia",
+        "mensagens": [
+          { "de": "clinica", "texto": "Oi, Carla! Aqui é da Una Dermatologia." },
+          { "de": "clinica", "texto": "Faz três meses que você começou o tratamento da psoríase. A Dra. Ariel quer ver como a pele respondeu. Posso procurar um horário?" },
+          { "de": "paciente", "texto": "Pode sim! Depois das 17h fica melhor pra mim." },
+          { "de": "clinica", "texto": "Tenho quarta às 17h30 ou quinta às 18h. Qual prefere?" },
+          { "de": "paciente", "texto": "Quarta, por favor." },
+          { "de": "clinica", "texto": "Combinado: quarta, 17h30, sala 904. Até lá!" }
+        ]
+      }
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Do primeiro contato ao retorno",
+        "itens": [
+          { "titulo": "Conversa pelo WhatsApp", "texto": "Conte a queixa. A recepção indica com quem marcar e encontra o horário.", "icone": "conversa" },
+          { "titulo": "Consulta com a dermatologista", "texto": "Exame da pele, história completa e o plano explicado sem pressa.", "icone": "pele" },
+          { "titulo": "Imagem quando ajuda", "texto": "Se a dúvida estiver abaixo da superfície, o ultrassom é feito na própria clínica.", "icone": "ultrassom" },
+          { "titulo": "Retorno combinado", "texto": "A data da reavaliação sai da consulta, e a clínica avisa quando ela chega.", "icone": "agenda" }
+        ]
+      }
+    },
+    {
+      "id": "corpo-clinico",
+      "variant": "monograma",
+      "data": {
+        "titulo": "Quem cuida de você",
+        "itens": [
+          {
+            "nome": "Ariel Córdova",
+            "registro": "CRM-SC 23.372 · RQE 18.753",
+            "especialidade": "Dermatologista · responsável técnica · preceptora da residência de Dermatologia da UFSC",
+            "foto": "midia/ariel2.jpg"
+          },
+          {
+            "nome": "Guilherme Thomé Garcia",
+            "registro": "CRM-SC 23.386 · RQE 18.982",
+            "especialidade": "Radiologista · mestre em Radiologia pela Unifesp, fellowship musculoesquelético no HCor",
+            "foto": "midia/guilherme.jpg"
+          },
+          {
+            "nome": "Daniela Debiasi",
+            "registro": "COREN-SC 856.109",
+            "especialidade": "Enfermeira · membro do grupo britânico de enfermagem dermatológica (BDNG)",
+            "foto": "midia/daniela.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Dúvidas que chegam no WhatsApp",
+        "itens": [
+          { "p": "Vocês atendem crianças?", "r": "Sim. A Una atende todas as idades, do atendimento pediátrico ao geriátrico." },
+          { "p": "O que é o ultrassom de pele?", "r": "Um exame de imagem sem agulha, com aparelho de alta frequência, que mostra as camadas da pele, inflamações, nódulos e produtos de preenchimento." },
+          { "p": "Fiz preenchimento em outro lugar e ficou um nódulo. Vocês avaliam?", "r": "Sim. O ultrassom mostra onde o produto está. Quando é ácido hialurônico e há indicação, a hialuronidase pode ser aplicada guiada pela imagem." },
+          { "p": "Vocês retiram pintas e fazem biópsia?", "r": "Sim. Biópsias, retirada de pintas e cirurgia do câncer de pele são feitas na clínica." },
+          { "p": "Como funciona o teste de contato?", "r": "Pequenos adesivos com substâncias ficam nas costas por alguns dias. A leitura é feita em retornos marcados e mostra a que você reage." },
+          { "p": "Tem onde estacionar?", "r": "A clínica fica no Edifício Estação Milano, ao lado do Pátio Milano, que tem estacionamento." }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "No Estação Milano, ao lado do Pátio Milano"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Comece pela consulta",
+        "lead": "Conte pelo WhatsApp o que está acontecendo com a sua pele. A recepção encontra um horário com a Dra. Ariel.",
+        "cta": "Agendar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "links": [
+          { "texto": "Ultrassom de pele", "href": "#imagem" },
+          { "texto": "Atendimentos", "href": "#tratamentos" },
+          { "texto": "Onde fica", "href": "#unidades" }
+        ],
+        "aviso": "Una Dermatologia e Imagem · Florianópolis, SC. Responsável técnica: Dra. Ariel Córdova, CRM-SC 23.372, RQE 18.753. A indicação de cada tratamento é feita em consulta."
+      }
+    }
+  ]
+}

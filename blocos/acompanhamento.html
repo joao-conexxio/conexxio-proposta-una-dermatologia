@@ -1,0 +1,37 @@
+<section class="blk-ac" id="acompanhamento">
+  <div class="wrap">
+    <div class="blk-ac__cab">
+      <p class="blk-ac__eyebrow" data-reveal>Doenças que pedem acompanhamento</p>
+      <h2 class="blk-ac__titulo" data-reveal>Algumas doenças de pele não se resolvem numa consulta só</h2>
+      <p class="blk-ac__lead" data-acende>Psoríase, dermatite atópica e hidradenite vão e voltam. O que muda a vida de quem convive com elas é diagnóstico certo, tratamento atualizado e retorno na época certa.</p>
+    </div>
+    <ol class="blk-ac__lista">
+      <li data-reveal style="--d:0ms"><span class="blk-ac__n">01</span><div><h3>Psoríase</h3><p>Placas vermelhas que descamam, às vezes nas unhas e nas articulações. Hoje há tratamento de pomada a imunobiológico, e ficar sem lesões é possível.</p></div></li>
+      <li data-reveal style="--d:80ms"><span class="blk-ac__n">02</span><div><h3>Dermatite atópica</h3><p>A coceira que atrapalha o sono, da infância à vida adulta. O cuidado com o banho ajuda; as medicações novas ajudam mais.</p></div></li>
+      <li data-reveal style="--d:160ms"><span class="blk-ac__n">03</span><div><h3>Hidradenite supurativa</h3><p>Nódulos que parecem furúnculos e voltam sempre nos mesmos lugares. O ultrassom mostra a extensão que o olho não alcança.</p></div></li>
+      <li data-reveal style="--d:240ms"><span class="blk-ac__n">04</span><div><h3>Urticária crônica</h3><p>Placas que coçam e mudam de lugar por mais de seis semanas. Mesmo sem causa encontrada, dá para controlar a longo prazo.</p></div></li>
+      <li data-reveal style="--d:320ms"><span class="blk-ac__n">05</span><div><h3>Lúpus na pele</h3><p>Lesões que pedem dermatologista e reumatologista conversando. Com a doença controlada, a pele também tem tratamento.</p></div></li>
+      <li data-reveal style="--d:400ms"><span class="blk-ac__n">06</span><div><h3>Queda de cabelo</h3><p>Cada tipo de alopecia tem uma causa. Nas que deixam cicatriz, começar cedo é o que preserva os fios.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<style>
+.blk-ac{padding-block:var(--sp-section)}
+.blk-ac__eyebrow{margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand2)}
+.blk-ac__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink);max-width:24ch}
+.blk-ac__lead{margin:var(--sp-3) 0 0;font-size:1.15rem;line-height:1.6;color:var(--ink);max-width:40rem}
+.blk-ac__lista{list-style:none;margin:var(--sp-5) 0 0;padding:0;display:grid;gap:0}
+.blk-ac__lista li{display:grid;grid-template-columns:3rem 1fr;gap:var(--sp-2);padding:var(--sp-3) 0;border-top:1px solid color-mix(in srgb,var(--ink) 14%,transparent)}
+.blk-ac__n{font-family:var(--f-display);font-size:1.1rem;color:var(--pulse);padding-top:.2rem}
+.blk-ac__lista h3{margin:0 0 .35rem;font-family:var(--f-display);font-size:1.35rem;font-weight:400;color:var(--ink)}
+.blk-ac__lista p{margin:0;color:color-mix(in srgb,var(--ink) 75%,transparent);line-height:1.55}
+@media (min-width:900px){
+  .blk-ac__lista{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:var(--sp-6)}
+}
+@media (min-width:1200px){
+  .blk-ac .wrap{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:var(--sp-6);align-items:start}
+  .blk-ac__cab{position:sticky;top:7rem}
+  .blk-ac__lista{margin-top:0;grid-template-columns:1fr}
+}
+</style>
